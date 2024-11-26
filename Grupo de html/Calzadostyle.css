@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+/* Navbar titulo */
+
+.navbar-center{
+    display: flex;
+    justify-content:space-between
+    
+}
+/* Div center Inicio */
+.div-center{
+    font-family: "Roboto", serif;
+  font-weight: 500;
+  font-style: normal;
+  
+}
+.div-center h1{
+    font-size: 4rem;
+}
+/* Div center Fin */
+/* Inicio Navbar */
+ 
+.Navbar-ropa{
+   
+    display: flex;
+    gap: 60px
+    ;
+  color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    align-items: center;
+    text-decoration: none;
+   
+}
+.Navbar-ropa a{
+    text-decoration: none;
+    color: black;
+    padding-right: 100px;
+}
+      
+
+
+.contacto{
+    display: flex;
+   
+    padding: 10px;
+    justify-content: flex-end;
+    color: white;
+}
+.boton-contacto{
+    background-color: black;
+    color: #fff;
+}
+.boton-contacto a{
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+
+.div-center{
+    background-color:rgb(0, 0, 0) 
+    color(white red green blue)
+} 
