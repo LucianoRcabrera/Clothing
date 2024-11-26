@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: aquamarine;
 }
 /* Navbar titulo */
 
@@ -46,12 +47,12 @@ body{
 .contacto{
     display: flex;
    
-    padding: 10px;
+    padding: 40px;
     justify-content: flex-end;
     color: white;
 }
 .boton-contacto{
-    background-color: black;
+    background-color:black;
     color: #fff;
 }
 .boton-contacto a{
@@ -65,3 +66,26 @@ body{
     background-color:rgb(0, 0, 0) 
     color(white red green blue)
 } 
+
+
+/* cards */
+.card:hover{
+    transition: all 0.5s;
+    transform: scale(1.1);
+}
+.card-text{
+    font-family: "Roboto", serif;
+    font-weight: 800;
+    font-style: normal;
+    color: black;
+}
+.card-tittle{
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+.card-footer{
+    font-family: "PT Serif", serif;
+  font-weight: 800;
+  font-style: normal;
+}
