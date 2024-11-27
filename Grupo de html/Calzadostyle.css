@@ -1,7 +1,10 @@
+
 body{
     margin: 0;
     padding: 0;
-    background-color: aquamarine;
+    background: #1e1f21;
+    color: #fff;
+    
 }
 /* Navbar titulo */
 
@@ -28,7 +31,7 @@ body{
     display: flex;
     gap: 60px
     ;
-  color: black;
+  color: rgb(255, 255, 255);
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-style: normal;
@@ -38,7 +41,7 @@ body{
 }
 .Navbar-ropa a{
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
     padding-right: 100px;
 }
       
@@ -67,25 +70,79 @@ body{
     color(white red green blue)
 } 
 
+/* Cards */
+.cartas{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif; 
+    box-sizing: border-box;
+   flex-wrap: wrap;
+}
 
-/* cards */
-.card:hover{
-    transition: all 0.5s;
+
+.wrapper{
+    padding: 10px 10%;
+}
+#card-area{
+    padding: 50px 0;
+}
+.box-area{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 30px;
+}
+.box {
+	border-radius: 10px;
+	position: relative;
+	overflow: hidden;
+	box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+}
+.box img{
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    transition: transform 0.5s;
+}
+.overlay {
+	width: 100%;
+	height: 0;
+	background: linear-gradient(transparent,#1c1c1c 58%);
+	border-radius: 8px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 0px 165px;
+	text-align: center;
+	font-size: 10px;
+	transition: height 0.5s;
+}
+.overlay h3 {
+	font-weight: 500;
+	margin-bottom: 5px;
+	margin-top: 80%;
+	font-family: 'Bebas Neue', sans-serif;
+	font-size: 30px;
+	letter-spacing: 2px;
+}
+.overlay a {
+	margin-top: 8px;
+	color: #262626;
+	text-decoration: none;
+	font-size: 14px;
+	background: #fff;
+	border-radius: 50px;
+	text-align: center;
+	padding: 5px 15px;
+}
+.box:hover img{
     transform: scale(1.1);
 }
-.card-text{
-    font-family: "Roboto", serif;
-    font-weight: 800;
-    font-style: normal;
-    color: black;
-}
-.card-tittle{
-    font-family: "Poppins", sans-serif;
-    font-weight: 800;
-    font-style: normal;
-}
-.card-footer{
-    font-family: "PT Serif", serif;
-  font-weight: 800;
-  font-style: normal;
+.box:hover .overlay{
+    height: 100%;
 }

@@ -1,7 +1,9 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: aquamarine;
+   
+    background: #1e1f21;
+    color: #fff;
 }
 .navbar-center{
     display: flex;
@@ -26,7 +28,7 @@ body{
     display: flex;
     gap: 60px
     ;
-  color: black;
+  color: rgb(255, 255, 255);
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-style: normal;
@@ -36,7 +38,7 @@ body{
 }
 .Navbar-ropa a{
     text-decoration: none;
-    color: black;
+    color: rgb(255, 247, 247);
     padding-right: 100px;
 }
       
